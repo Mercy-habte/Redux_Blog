@@ -9,8 +9,8 @@ module.exports = {
         secondary:'#EE7424',
         dark:'#2D2D2D'
       },
-      background:{
-        'light-image': "url('https://media.istockphoto.com/photos/addis-ababa-skyline-picture-id1304067246?b=1&k=20&m=1304067246&s=170667a&w=0&h=uxaah1gPC_Rv9OCi-Gm9EGO9M53hINVvSg2H6BtouBc=')"
+      backgroundImage:{
+        'light-image': "url('/src/img/addis.jpg')"
 
       },
       fontFamily:{
