@@ -1,14 +1,9 @@
-const initState = {
-    posts :[
-        {id: '1', title: 'Earth Tones', body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur voluptate laborum perferendis, enim repellendus ipsam sunt autem at odit dolorum, voluptatum suscipit iste harum cum magni itaque animi laudantium fugiat'},
-        {id: '2', title: 'Earth Tones', body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur voluptate laborum perferendis, enim repellendus ipsam sunt autem at odit dolorum, voluptatum suscipit iste harum cum magni itaque animi laudantium fugiat'},
-        {id: '3', title: 'Earth Tones', body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur voluptate laborum perferendis, enim repellendus ipsam sunt autem at odit dolorum, voluptatum suscipit iste harum cum magni itaque animi laudantium fugiat'},
-        {id: '1', title: 'Earth Tones', body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur voluptate laborum perferendis, enim repellendus ipsam sunt autem at odit dolorum, voluptatum suscipit iste harum cum magni itaque animi laudantium fugiat'},
+import React from 'react'
 
-    ]
-}
-const rootReducer = (state= initState,action)=>{
-    return state;
+const rootReducer = () => {
+  return (
+    <div>rootReducer</div>
+  )
 }
 
 export default rootReducer

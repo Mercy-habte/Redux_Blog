@@ -3,7 +3,7 @@ import about from '../imgs/about.png'
 
 const About = ()=>{
     return (
-        <div>
+        <div id='mercy'>
             <div class='grid grid-cols-2  bg-white'>
                 <img src={about} class='bg-primary pt-20 pr-20 pb-20 pl-5'></img>
                 <div class='h-48 w-full '>
